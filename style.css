@@ -1,0 +1,177 @@
+/* gendral Styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; /* No margin and padding for entire doc */
+}
+body{
+    font-family: "Poppins", sans-serif; /* poppins family used from google fonts */
+    font-weight: 300;
+    font-style: normal;
+}
+html{
+    scroll-behavior: smooth;
+}
+a, .btn{
+    transition: all 300ms ease; /* For transition of the doc to animate better */
+}
+.name{
+    font-size: 1.5rem;
+}
+.name:hover{
+    cursor: default; /* For not changing the cursor over name */
+}
+/* Nav Bar Styling */
+nav, .nav-link{
+    display: flex; /* For adjusting the flex of the doc */
+}
+nav{
+    display: flex;
+    flex-direction: row; /* Flex in row order for showing */
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+.nav-link{
+    gap: 2rem;
+    list-style: none; /* Removing the bullet in the list */
+    font-size: 1.5rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+a:hover{
+    color: gray;
+    text-decoration: underline;
+    text-decoration-color: rgb(181,181,181);
+}
+.pic{
+    border-radius: 50%;
+}   
+section
+{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;   
+}
+.section-container
+{
+    display: flex;
+}
+#profile
+{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 80vh;
+}
+.profile-pic{
+    display: flex;
+    /* border-radius: 40%; */
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+.profile-text{
+    align-self: center;
+    text-align: center;
+}
+.profile-text-p{
+    font-weight: 600;
+}
+.profile-text-p2{
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.profile-title
+{
+    font-size: 3rem;
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 4rem;
+}
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+.btn-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn{
+    font-weight: 500;
+    transition: all 300ms ease;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width: 6rem;
+    color: black;
+}
+.btn-color{
+    background-color: white;
+    cursor: pointer;
+}
+.btn-color:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+/*  */
+
+#about {
+    position: relative;
+  }
+  
+  .about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .about-details-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .about-containers,
+  .about-details-container {
+    display: flex;
+  }
+    
+  .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
+  
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
+  
+  .section-container {
+    gap: 4rem;
+    height: 80%;
+  }
+
+  #contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+  }

@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "type": "posts",
+      "slug": "adcs-enrollment-abuse-primer",
+      "title": "AD CS Enrollment Abuse: Attack Surface Primer",
+      "summary": "How weak enrollment templates become privilege escalation paths in Active Directory Certificate Services.",
+      "date": "2026-05-24",
+      "readTime": "9 min read",
+      "tags": ["adcs", "active-directory", "privesc"],
+      "path": "content/posts/adcs-enrollment-abuse-primer.md"
+    },
+    {
+      "type": "posts",
+      "slug": "blue-team-detection-lolbins",
+      "title": "Blue Team Detection Strategy for LOLBins",
+      "summary": "Building practical detections for living-off-the-land abuse with low noise and high context.",
+      "date": "2026-05-20",
+      "readTime": "7 min read",
+      "tags": ["detection-engineering", "lolbins", "siem"],
+      "path": "content/posts/blue-team-detection-lolbins.md"
+    },
+    {
+      "type": "posts",
+      "slug": "secure-code-review-checklist-nodejs",
+      "title": "Secure Code Review Checklist for Node.js APIs",
+      "summary": "A high-signal checklist for authentication, authorization, data flow, and dependency risk.",
+      "date": "2026-05-14",
+      "readTime": "6 min read",
+      "tags": ["secure-coding", "nodejs", "appsec"],
+      "path": "content/posts/secure-code-review-checklist-nodejs.md"
+    },
+    {
+      "type": "posts",
+      "slug": "reactor-htb-writeup",
+      "title": "Reactor HTB Writeup: From Initial Foothold to Domain Admin",
+      "summary": "Comprehensive walkthrough of the Reactor box on Hack The Box, covering enumeration, exploitation, and post-exploitation techniques.",
+      "date": "2026-05-31",
+      "readTime": "16 min read",
+      "tags": ["secure-coding", "writeup", "appsec"],
+      "path": "content/posts/reactor-htb-writeup.md"
+    }
+  ],
+  "writeups": [
+    {
+      "type": "writeups",
+      "slug": "ctf-web-rce-chain-writeup",
+      "title": "CTF Web Challenge: Template Injection to RCE",
+      "summary": "Step-by-step exploit chain from input validation bypass to command execution.",
+      "date": "2026-05-28",
+      "readTime": "10 min read",
+      "tags": ["ctf", "web", "rce"],
+      "path": "content/writeups/ctf-web-rce-chain-writeup.md"
+    },
+    {
+      "type": "writeups",
+      "slug": "forensics-memory-artifacts-case-note",
+      "title": "Memory Forensics Case Note: Credential Artifact Hunt",
+      "summary": "Extracting process, token, and credential clues from volatile memory snapshots.",
+      "date": "2026-05-22",
+      "readTime": "8 min read",
+      "tags": ["forensics", "memory", "incident-response"],
+      "path": "content/writeups/forensics-memory-artifacts-case-note.md"
+    },
+    {
+      "type": "writeups",
+      "slug": "linux-privesc-suid-path-abuse",
+      "title": "Linux PrivEsc: SUID Path Abuse Walkthrough",
+      "summary": "Enumerating risky binaries and exploiting insecure path resolution for root execution.",
+      "date": "2026-05-17",
+      "readTime": "7 min read",
+      "tags": ["linux", "privesc", "suid"],
+      "path": "content/writeups/linux-privesc-suid-path-abuse.md"
+    }
+  ]
+}

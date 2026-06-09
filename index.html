@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yuvan | Cybersecurity Research</title>
+    <meta
+      name="description"
+      content="Cybersecurity research portfolio featuring exploit analysis, incident response writeups, and practical hardening guides."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-a" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-b" aria-hidden="true"></div>
+
+    <header class="site-header container">
+      <a class="brand" href="index.html">Thebluecapture</a>
+      <nav class="site-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="listing.html?type=posts">Blog</a>
+        <a href="listing.html?type=writeups">Writeups</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero reveal">
+        <p class="kicker">Cybersecurity Research Portfolio</p>
+        <h1>The Art of Learning Things.</h1>
+        <p>
+          I publish exploit chain breakdowns, reverse engineering notes, detection ideas,
+          and defensive playbooks in a practical, Markdown-first workflow.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="listing.html?type=posts">Read Blog</a>
+          <a class="btn btn-ghost" href="listing.html?type=writeups">View Writeups</a>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>Latest Research Posts</h2>
+          <a href="listing.html?type=posts">See all</a>
+        </div>
+        <div id="latest-posts" class="cards"></div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-head">
+          <h2>Latest Writeups</h2>
+          <a href="listing.html?type=writeups">See all</a>
+        </div>
+        <div id="latest-writeups" class="cards"></div>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="about">
+          <h2>About This Site</h2>
+          <p>
+            This is a custom-built static site using plain HTML, CSS, and JavaScript.
+            Articles are authored in Markdown and rendered into readable HTML at runtime,
+            ideal for GitHub Pages and low-friction publishing.
+          </p>
+          <ul>
+            <li>Markdown-driven posts and CTF writeups</li>
+            <li>Code syntax highlighting and copy-ready blocks</li>
+            <li>Fast static hosting on GitHub Pages</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container site-footer">
+      <p>Built for cybersecurity research publishing. © <span id="year"></span> Yuvan</p>
+    </footer>
+
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
+</html>

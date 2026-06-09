@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post | Yuvan Cybersecurity Research</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/base16/atelier-cave-light.min.css"
+      integrity="sha512-CG6yNr0ylQf6J0/eTRI1a4vwp+7SW6SyHzk0Qxrp6Pk3JmAUXqVfSc7M0N4hxAb80GyMry+4V8f6h/9IP4h5CQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="site-header container">
+      <a class="brand" href="index.html">Thebluecapture</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="listing.html?type=posts">Blog</a>
+        <a href="listing.html?type=writeups">Writeups</a>
+      </nav>
+    </header>
+
+    <main class="container article-shell">
+      <article class="article reveal">
+        <p id="article-type" class="kicker"></p>
+        <h1 id="article-title">Loading...</h1>
+        <p id="article-meta" class="article-meta"></p>
+        <div id="article-tags" class="tags"></div>
+        <hr class="article-divider" />
+        <div id="article-content" class="markdown-body"></div>
+      </article>
+    </main>
+
+    <footer class="container site-footer">
+      <p>Published from Markdown with a custom renderer.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.5/dist/purify.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"
+      integrity="sha512-z8/V6nDz6o44CGmkN3aTMV8vNwjhg6M2B0wM83gsFiA17M4xN2xU+pStOpmA8Nwf9QXxJAtN5LQfL27sLiL6sA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -41,3 +41,5 @@ PORT     STATE SERVICE VERSION
 |     HTTP/1.1 400 Bad Request
 |_    Connection: close
 ```
+-----
+- After the machine was retired or out of the season, The full writeup will be published
